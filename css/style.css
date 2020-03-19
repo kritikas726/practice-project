@@ -2,6 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     border: 0;
+    height: 100%;
 }
 .header{
     height: 70px;
@@ -66,6 +67,11 @@ html,body{
     left: 110.5px;
     top: 208.436px;
 }
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .banner-button{
     background: transparent;
     color: white;
@@ -78,9 +84,8 @@ html,body{
     margin-top: 50px;
     height: 40px;
     width: 150px;
-    box-shadow: none;
-    align-items: center;
     margin-left: 10px;
+    border-radius: 2px;
 }
 .banner-button:hover{
     background-color: white;
@@ -92,33 +97,288 @@ html,body{
 }
 .hr1{
     background-color: rgba(255,255,255, .08);
+    margin: 0;
+}
+.about-studio-div-big{
+    max-height: 560px;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+}
+.about-studio-div{
+    width: 970px;
+    height: 280px;
+    margin: auto;
+}
+.abs1{
+    display: flex;
+    height: 100px;
+    width: 970px;
+    justify-content: space-between;
 }
 .about-studio{
-    height: 560px;
-    width: 100%;
+    color: black;
+    text-align: left !important;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
-.services{
-    height: 845px;
-    width: 100%;
-    background: white;
+.more-about-us{
+    float: right !important;
+    font-size: 11px;
+    padding-top: 7px;
+    color: #999999;
+    letter-spacing: 0.4em;
+    text-align: right !important;
+    text-decoration: none;
 }
-.page-section{
+.row{
+    display: flex;
+    height: 180px;
+    width: 970px;
+}
+.column{
+    height: 180px;
+    width: 33.33%;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #777777;
+}
+.bar{
+    width: 90%;
+}
+
+.page-section1{
     background-image: url(../images/full-width-images/section-bg-2.jpg);
     position: absolute;
-    height: 445px;
+    height: 1290px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 70% 0;
     background-attachment: fixed;
 }
-.lets-talk{
+.services-div-big{
+    height: 845px;
+    width: 100%;
+    background-color: white;
+    padding: 140px 0;
+}
+.services-heading{
+    text-align: center;
+    color: black;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+}
+.services-div-big ul{
+    padding: 30px 0;
+    height: 180px;
+    width: 1140px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+}
+.services-div-big ul li{
+    height: 120px;
+    width: 215px;
+    padding: 15px 10px;
+    margin-right: 2px;
+} 
+.icon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 12px;
+    color: rgb(163,163,163);
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.writeup{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+    text-align: center;
+}
+.description{
+    padding: 30px 0;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    height: 250px;
+    width: 1200px;
+}
+.des-quote{
+    padding: 0 15px;
+    width: 400px;
+    height: 300px;
+    color: #777777;
+    margin-bottom: 0 !important;
+}
+.para{
+    font-size: 26px;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+.foot{
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.des-column{
+    height: 300px;
+    width: 400px;
+    font-size: 15px;
+    padding: 0 15px;
+    color: #777777;
+}
+.view-all-sources{
+    text-align: center;
+    color: #999999;
+    width: 1140;
+    height: 22px;
+    margin-top: 7px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+}
+.view-all-sources:hover{
+    color: black;
+    transition-duration: 0.27s;
+}
+.lets-talk-div-big{
     height: 445px;
     background: transparent;
     position: relative;
 }
+.lets-talk-div{
+    width: 1170px;
+    height: 445px;
+    margin: auto;
+    padding: o 15px;
+    display: flex;
+}
+.lets-talk-div-small1{
+    height: 445px;
+    width: 585px;
+    padding: 0 15px;
+    display: flex;
+}
+.lets-talk-smaller{
+    height: 165px;
+    width: 555px;
+    margin: 80px 0;
+    position: relative;
+    margin: auto;
+    flex-direction: column;
+}
+.lets-talk-heading{
+    color: white;
+    margin-bottom: 20;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 5.4px;
+    line-height: 25.2px;
+}
+.lets-talk-des{
+    height: 50px;
+    width: 555px;
+    margin-bottom: 35px;
+    color: rgba(255,255,255,0.7);
+}
+.lets-talk-button{
+    width: 155px;
+    height: 35px;
+    color: black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 8px 37px;
+    font-size: 12px;
+    border: 2px solid transparent;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    box-shadow: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.lets-talk-button:hover{
+    background-color: white;
+    transition: 0.27s;
+}
+.lets-talk-div-small2{
+    height: 440;
+    width: 530px;
+    position: relative;
+    margin-top: -40px;
+    padding: 0 15px;
+}
+.page-section2{
+    background-image: url(../images/full-width-images/section-bg-2.jpg);
+    position: absolute;
+    height: 1290px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .work-process{
     height: 430px;
+    width: 100%;
     background-color: white;
+    padding: 140px 0;
+    display: flex;
+}
+.work-process-small{
+    height: 220px;
+    width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+}
+.work-process-div-head{
+    height: 220px;
+    width: 290px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(119,119,119);
+}
+.work-process-heading{
+    margin-bottom: 23.4px;
+    color: rgb(119,119,119);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+    text-align: left;
+    margin-top: 0 !important;
+}
+.divs{
+    height: 200px;
+    width: 290px;
+    padding-top: 10px;
+}
+.work-process-icon{
+    height: 70px;
+    width: 260px;
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+}
+.work-process-icon-name{
+    margin-top: 20px;
+    margin-bottom: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.4em;
 }
 .latest-works{
     height: 705px;
