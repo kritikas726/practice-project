@@ -134,6 +134,8 @@ html,body{
     letter-spacing: 0.4em;
     text-align: right !important;
     text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 .row{
     display: flex;
@@ -161,6 +163,7 @@ html,body{
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 .services-div-big{
     height: 845px;
@@ -222,12 +225,12 @@ html,body{
     color: #777777;
     margin-bottom: 0 !important;
 }
-.para{
+.des-para{
     font-size: 26px;
     margin-bottom: 24px;
     font-weight: 300;
 }
-.foot{
+.des-foot{
     font-size: 11px;
     letter-spacing: 2px;
     font-weight: 400;
@@ -309,6 +312,7 @@ html,body{
     text-align: center;
     vertical-align: middle;
     border-radius: 2px;
+    margin: auto;
 }
 .lets-talk-button:hover{
     background-color: white;
@@ -320,14 +324,6 @@ html,body{
     position: relative;
     margin-top: -40px;
     padding: 0 15px;
-}
-.page-section2{
-    background-image: url(../images/full-width-images/section-bg-2.jpg);
-    position: absolute;
-    height: 1290px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .work-process{
     height: 430px;
@@ -436,6 +432,7 @@ html,body{
     overflow: hidden;
     height: 84px;
     position: absolute;
+    display: none;
 }
 .latest-works-img-head{
     margin-bottom: 8px;
@@ -489,7 +486,342 @@ html,body{
     text-align: center;
     vertical-align: middle;
 }
-.lets-view-port-btm:hover{
+.lets-view-port-btn:hover{
     background-color: white;
     transition: 0.27s;
+}
+.why-choose-us{
+    width: 100%;
+    height :885px;
+    background-color: white;
+    display: flex;
+}
+.why-choose-us-small{
+    height: 600px;
+    width: 1170px;
+    margin: auto;
+}
+.why-choose-us-head{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+.both-rows{
+    margin-top: 70px;
+}
+.wcu-row{
+    height: 280px;
+    width: 1170px;
+    display: flex;
+}
+.wcu-column{
+    height: 280px;
+    width: 390px;
+    padding: 0 15px;
+    margin-top: -70px;
+}
+.wcu-column-small{
+    margin-top: 70px;
+    height: 210px;
+    width: 360px;
+}
+.wcu-column-icon{
+    height: 70px;
+    width: 360px;
+    padding-top: 10px;
+    font-size: 48px;
+    text-align: center;
+}
+.wcu-column-head{
+    margin-top: 20px;
+    margin-bottom: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.4em;
+    color: black;
+}
+.wcu-column-des{
+    height: 75px;
+    width: 360px;
+    color: #777777;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+}
+.page-section2{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.89), rgba(0, 0, 0, 0.89)), url("../images/full-width-images/section-bg-3.jpg");
+    position: absolute;
+    height: 1370px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.what-people-say{
+    height: 485px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+}
+.what-people-say-small{
+    height: 200px;
+    width: 780px;
+    margin: auto;
+    padding: 0 15px;
+}
+.what-people-say-icon{
+    height: 50px;
+    width: 750px;
+    margin-bottom: 7px;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+.what-people-say-head{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    height: 25px;
+    width: 750px;
+    text-align: center;
+    color: white;
+}
+.wps-quote{
+    height: 60px;
+    width: 750px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+.wps-para{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.wps-foot{
+    height: 15px;
+    width: 750px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #777777;
+}
+.bestsellers{
+    height: 940px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.bestsellers-small{
+    height: 660px;
+    width: 1170px;
+    margin: auto;
+}
+.bestsellers-head{
+    display: flex;
+    height: 115px;
+    width: 1170px;
+    justify-content: space-between;
+}
+.bestsellers-heading{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: black;
+    text-align: left !important;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+}
+.our-shop{
+    float: right !important;
+    font-size: 11px;
+    padding-top: 7px;
+    color: #999999;
+    letter-spacing: 0.4em;
+    text-align: right !important;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.bestsellers-options{
+    display: flex;
+    width: 1160px;
+    height: 545px;
+}
+.option{
+    height: 485px;
+    width: 290px;
+    margin-bottom: 60px;
+    padding: 0 15px;
+}
+.option-img{
+    margin-bottom: 23px;
+    height: 335px;
+    width: 260px;
+    background-size: cover;
+}
+#img1{
+    background-image: url("../images/shop/shop-prev-1.jpg");
+}
+#img2{
+    background-image: url("../images/shop/shop-prev-2.jpg");
+}
+#img3{
+    background-image: url("../images/shop/shop-prev-3.jpg");
+}
+#img4{
+    background-image: url("../images/shop/shop-prev-4.jpg");
+}
+.option-title{
+    height: 50px;
+    width: 260px;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #777777;
+}
+.option-price{
+    margin-bottom: 22px;
+    color: #777777;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.option-price strong{
+    font-weight: bold;
+}
+.add-to-cart{
+    width: 140px;
+    height: 25px;
+    border-radius: 2px;
+    margin: auto;
+    background-color: #E5E5E5;
+    color: #777777;
+    padding: 4px 13px;
+    font-size: 11px;
+    border: 2px solid transparent;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    box-shadow: none;
+    text-align: center;
+    vertical-align: middle;
+}
+.awesome-template{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.at-small{
+    margin: auto;
+    height: 370px;
+    width: 1170px;
+    display: flex;
+}
+.at-small-left{
+    width: 680px;
+    height: 370px;
+    padding: 0 15px;
+}
+.at-img{
+    height: 370px;
+    width: 650px;
+    background-image: url("../images/promo-3.png");
+    background-size: cover;
+}
+.at-small-right{
+    height: 370px;
+    width: 490px;
+    display: flex;
+}
+.at-right-small{
+    margin: auto;
+    margin-top: 0;
+    width: 390px;
+    height: 255px;
+    padding: 0 15px;
+}
+.at-heading{
+    color: #111111;
+    text-align: left;
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    font-weight: 400;
+}
+.at-des{
+    margin-bottom: 32px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #5f5f5f;
+}
+.buy-now{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: left;
+    vertical-align: middle;
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: #5f5f5f;
+    width: 145px;
+    height: 35px;
+    padding: 8px 37px;
+    letter-spacing: 2px;
+}
+.buy-now:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+.clear-design{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.cd-img{
+    height: 370px;
+    width: 650px;
+    background-image: url("../images/promo-4.png");
+    background-size: cover;
+}
+.scroll-icons{
+    height: 430px;
+    width: 100%;
+    background-image: url("../images/full-width-images/section-bg-17.jpg");
+    background-size: cover;
+    background-position: -200px;
+}
+.latest-news{
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+.stay-infor{
+    width: 100%;
+    height: 255px;
+    background-color: #f8f8f8;
+}
+.find-us{
+    height: 480px;
+    width: 100%;
+    background-color: white;
+}
+footer{
+    width: 100%;
+    height: 435px;
+    background-color: #f8f8f8;
 }
