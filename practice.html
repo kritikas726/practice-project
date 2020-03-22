@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/less/icons.less">
+    <script src="./js/javascript.js"></script>
     <title>Design Lovers</title>
 </head>
 <body>
@@ -30,13 +31,43 @@
             </ul>
         </div>
     </div>
-    <div class="banner" id="1">
+    <div class="banner " onclick="banner()" id="banner1">
+        <div class="written-banner">
+            <div class="branding">BRANDING / DESIGN / DEVELOPMENT / PHOTO</div>
+            <div class="creative-studio">CREATIVE STUDIO</div>
+            <div class="button-div">
+                <button class="banner-button">SEE MORE</button>
+                <button class="banner-button">PLAY REEL</button>
+            </div>
+        </div>
+    </div>
+    <div class="banner"  onclick="banner()" id="banner2">
         <div class="written-banner">
             <div class="we-are">WE ARE JUST CREATIVE PEOPLE</div>
             <div class="design-lovers">DESIGN LOVERS</div>
             <div class="button-div">
                 <button class="banner-button">SEE MORE</button>
                 <button class="banner-button">GET PRICING</button>
+            </div>
+        </div>
+    </div>
+    <div class="banner"  onclick="banner()"  id="banner3">
+        <div class="written-banner">
+            <div class="rhythm-studio-icon"><i class="fa fa-play-circle"></i></div>
+            <div class="rhythm-studio">RHYTHM STUDIO</div>
+            <div class="lets-start">LETS START WORK WITH US</div>
+        </div>
+    </div>
+    <div class="banner"  onclick="banner()"  id="banner4">
+        <div class="banner-small">
+            <div class="intro-video-left">
+                <div class="intro-video">INTRODUCING VIDEO</div>
+                <div class="we-have-art">WE HAVE ART MAGIC SKILLS</div>
+                <button class="banner-button we-have-button">LEARN MORE</button>
+            </div>
+            <div class="we-have-video">
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/56152991" 
+                width="480" height="275" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -106,7 +137,7 @@
             <div class="description">
                 <blockquote class="des-quote"><p class="des-para"> A brand for a company is like a reputation for a person. 
                  You earn reputation by trying to do hard things well.</p>
-                    <footer class="des-footfoot">-JEFF BEZOS</footer>
+                    <footer class="des-foot">-JEFF BEZOS</footer>
                 </blockquote>
                 <div class="des-column">Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Eos non minima, corporis,
@@ -374,10 +405,104 @@
                     </div>
                 </div>
             </div>
-            <div class="scroll-icons"></div>
-            <div class="latest-news"></div>
-            <div class="stay-infor"></div>
-            <div class="find-us"></div>
+            <div class="scroll-icons">
+                <div class="si-small">
+                    <div class="si-row">
+                        <div class="si-column">
+                            <div class="si-icon"><i class="fa fa-glass"></i></div>
+                            <div class="si-title">WE'RE CREATIVE</div>
+                            <div class="si-des">We find the best ideas for you</div>
+                        </div>
+                        <div class="si-column">
+                            <div class="si-icon"><i class="fa fa-clock-o"></i></div>
+                            <div class="si-title">WE'RE PUNCTUAL</div>
+                            <div class="si-des">We always do your tasks at time</div>
+                        </div>
+                        <div class="si-column">
+                            <div class="si-icon"><i class="fa fa-file-text-o"></i></div>
+                            <div class="si-title">WE HAVE MAGIC</div>
+                            <div class="si-des">You will be delighted</div>
+                        </div>
+                    </div>
+                    <div class="scroller">
+                        <i class="fa fa-circle-thin"></i>&nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-circle-thin"></i>&nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-circle-thin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-news">
+                <div class="ln-small">
+                    <div class="bestsellers-head">
+                        <div><h2 class="bestsellers-heading">LATEST NEWS</h2></div>
+                        <div class="our-shop">ALL NEWS IN OUT BLOG <i class="fa fa-angle-right"></i></div>
+                    </div>
+                    <div class="ln-row">
+                        <div class="ln-column">
+                            <div class="ln-column-img" id="ln-column-img1"></div>
+                            <div class="ln-column-title">NEW WEB DESIGN TRENDS</div>
+                            <div class="ln-column-info">JOHN DOE | 10 DECEMBER</div>
+                            <div class="ln-column-des">Maecenas volutpat, diam enim sagittis quam, id porta quam. 
+                                Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</div>
+                            <button class="read-more">READ MORE <i class="fa fa-angle-right"></i></button>
+                        </div>
+                        <div class="ln-column">
+                            <div class="ln-column-img" id="ln-column-img2"></div>
+                            <div class="ln-column-title">MINIMILISTIC DESIGN FOREVER</div>
+                            <div class="ln-column-info">JOHN DOE | 9 DECEMBER</div>
+                            <div class="ln-column-des">Maecenas volutpat, diam enim sagittis quam, id porta quam. 
+                                Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</div>
+                            <button class="read-more">READ MORE <i class="fa fa-angle-right"></i></button>
+                        </div>
+                        <div class="ln-column">
+                            <div class="ln-column-img" id="ln-column-img3"></div>
+                            <div class="ln-column-title">HIPSTER'S STYLE IN WEB</div>
+                            <div class="ln-column-info">JOHN DOE | 7 DECEMBER</div>
+                            <div class="ln-column-des">Maecenas volutpat, diam enim sagittis quam, id porta quam. 
+                                Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</div>
+                            <button class="read-more">READ MORE <i class="fa fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stay-infor">
+                <div class="stay-infor-small">
+                    <div class="stay-infor-head">STAY INFORMED WITH OUR NEWSLETTER</div>
+                    <div class="stay-infor-middle">
+                        <input placeholder="ENTER YOUR EMAIL" class="input-box">&nbsp;
+                        <button class="subscribe">SUBSCRIBE</button>
+                    </div>
+                    <div class="stay-infor-foot"><i class="fa fa-info-circle"></i> Please trust us, we will never send you spam</div>
+                </div>
+            </div>
+            <div class="find-us">
+                <div class="find-us-small">
+                    <h2 class="find-us-head">FIND US</h2>
+                    <div class="find-us-row">
+                        <div class="find-us-column">
+                            <div class="find-us-column-icon"><i class="fa fa-phone-square"></i></div>
+                            <div class="find-us-column-info">
+                                <div class="fu-column-title">CALL US</div>
+                                <div class="fu-column-des">+61 383766284</div>
+                            </div>
+                        </div>
+                        <div class="find-us-column">
+                            <div class="find-us-column-icon"><i class="fa fa-map-marker"></i></div>
+                            <div class="find-us-column-info">
+                                <div class="fu-column-title">ADDRESS</div>
+                                <div class="fu-column-des">245 Quigley Blvd, Ste K</div>
+                            </div>
+                        </div>
+                        <div class="find-us-column">
+                            <div class="find-us-column-icon"><i class="fa fa-envelope"></i></div>
+                            <div class="find-us-column-info">
+                                <div class="fu-column-title">EMAIL</div>
+                                <div class="fu-column-des">support@bestlooker.pro</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="lets-view-port">
                 <div class="lets-view-port-small">
                     <h3 class="lets-view-port-head">WANT TO DISCUSS YOU NEW PROJECT?</h3>
@@ -386,7 +511,22 @@
                     </div>
                 </div>
             </div>
-            <footer></footer>
+            <footer class="website-footer">
+                <div class="wf-small">
+                    <div class="wf-small-img"><img src="./images/logo-footer.png" class="wf-img"></div>
+                    <div class="wf-icons">
+                        <i class="fa fa-facebook-official"></i>&nbsp;&nbsp;
+                        <i class="fa fa-twitter-square"></i>&nbsp;&nbsp;
+                        <i class="fa fa-behance"></i>&nbsp;&nbsp;
+                        <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;
+                        <i class="fa fa-pinterest-square"></i>
+                    </div>
+                    <div class="footer-text">
+                        <div class="copyright"><i class="fa fa-copyright"></i> RHYTHM 2019.</div>
+                        <div class="copyright-text">Made with love for great people.</div>
+                    </div>
+                </div>
+            </footer>
         </section>
     </section>
 </body>
