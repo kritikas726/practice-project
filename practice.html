@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/less/icons.less">
-    <script src="./js/javascript.js"></script>
     <title>Design Lovers</title>
 </head>
 <body>
@@ -31,7 +31,9 @@
             </ul>
         </div>
     </div>
-    <div class="banner " onclick="banner()" id="banner1">
+    <button id="previous" onclick="decrement()">previous</button>
+    <button id="next" onclick="increment()">next</button>
+    <div class="banner" id="banner1">
         <div class="written-banner">
             <div class="branding">BRANDING / DESIGN / DEVELOPMENT / PHOTO</div>
             <div class="creative-studio">CREATIVE STUDIO</div>
@@ -41,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="banner"  onclick="banner()" id="banner2">
+    <div class="banner" id="banner2">
         <div class="written-banner">
             <div class="we-are">WE ARE JUST CREATIVE PEOPLE</div>
             <div class="design-lovers">DESIGN LOVERS</div>
@@ -51,14 +53,14 @@
             </div>
         </div>
     </div>
-    <div class="banner"  onclick="banner()"  id="banner3">
+    <div class="banner"  id="banner3">
         <div class="written-banner">
             <div class="rhythm-studio-icon"><i class="fa fa-play-circle"></i></div>
             <div class="rhythm-studio">RHYTHM STUDIO</div>
             <div class="lets-start">LETS START WORK WITH US</div>
         </div>
     </div>
-    <div class="banner"  onclick="banner()"  id="banner4">
+    <div class="banner"  id="banner4">
         <div class="banner-small">
             <div class="intro-video-left">
                 <div class="intro-video">INTRODUCING VIDEO</div>
@@ -529,5 +531,6 @@
             </footer>
         </section>
     </section>
+    <script src="./js/javascript.js"></script>
 </body>
 </html>

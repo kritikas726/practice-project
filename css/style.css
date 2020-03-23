@@ -4,6 +4,9 @@ html,body{
     border: 0;
     overflow-x: hidden;
 }
+button:focus{
+    outline: 0;
+}
 .header{
     height: 70px;
     width: 100%;
@@ -42,12 +45,13 @@ html,body{
     width: 100%;
     background-size: cover;
     visibility: inherit;
-    display: flex;
+    display: none;
 }
+
 #banner1{
     background-image: url("../images/full-width-images/section-bg-17.jpg");
     background-position: 0 -100px;
-    display: no;
+    display: flex;
 }
 #banner2{
     background-image: url("../images/full-width-images/section-bg-19.jpg");
@@ -295,7 +299,7 @@ html,body{
     width: 215px;
     padding: 15px 10px;
     margin-right: 2px;
-} 
+}
 .icon{
     height: 100px;
     width: 100px;
@@ -305,6 +309,10 @@ html,body{
     font-size: 48px;
     font-weight: 400;
     text-align: center;
+}
+.icon:hover{
+    color: black;
+    transition: all 0.27s;
 }
 .writeup{
     color: black;
@@ -526,6 +534,9 @@ html,body{
     position: relative;
     height: 310px;
     width: 500px;
+}
+.latest-works-img:hover{
+    transform: scale(0.5);
 }
 .latest-works-img-intro{
     bottom: -94px;
