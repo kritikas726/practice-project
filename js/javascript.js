@@ -8,7 +8,9 @@ function banner(){
         const element = container[index];
         element.style.display='none'
     }
-
+    if(i<0){
+        i=3;
+    }
     if(i==0){
         container[0].style.display='flex';
     }
@@ -21,9 +23,7 @@ function banner(){
     }
     if(i==3){
         container[3].style.display='flex';
-    }
-    if(i==4){
-        i=0;
+        i=-1;
     }
 }
 

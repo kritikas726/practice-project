@@ -9,12 +9,53 @@ button:focus{
 }
 .header{
     height: 70px;
-    width: 100%;
+    width: 1520px;
     background-color: transparent;
     position: absolute;
-    display: flex;
     justify-content: space-between;
+    display: flex;
     align-items: center;
+    z-index: 0.5;
+}
+.p{
+    height: 110px;
+    width: 30px;
+    position: absolute;
+    justify-content: center;
+    top: 250px;
+    z-index: 100;
+    left: 0px;
+    font-size: 34px;
+    background: rgba(0,0,0,0.25);
+    color: white;
+    border:  none;
+    outline: 0;
+    opacity: 0.7;
+    padding: 0;
+    text-align: center;
+}
+.p:focus{
+    outline: none;
+}
+.n{
+    height: 110px;
+    width: 30px;
+    position: absolute;
+    top: 250px;
+    justify-content: center;
+    z-index: 100;
+    right: 0px;
+    font-size: 34px;
+    background: rgba(0,0,0,0.25);
+    color: white;
+    border: none;
+    outline: 0;
+    opacity: 0.7;
+    padding: 0;
+    text-align: center;
+}
+.n:focus{
+    outline: none;
 }
 .logo{
     margin-right: 20px;
@@ -42,12 +83,12 @@ button:focus{
 }
 .banner{
     height: 600px;
-    width: 100%;
+    width: 1520px;
     background-size: cover;
     visibility: inherit;
     display: none;
+    z-index: 0;
 }
-
 #banner1{
     background-image: url("../images/full-width-images/section-bg-17.jpg");
     background-position: 0 -100px;
@@ -1225,6 +1266,7 @@ button:focus{
 .wf-icons{
     width: auto;
     display: flex;
+    flex-wrap: wrap;
     height: auto;
     text-align: center;
     font-size: 22px;
@@ -1253,4 +1295,47 @@ button:focus{
     font-size: 11px;
     text-align: center;
     color: #999999;
+}
+.scroll-top{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    background: transparent;
+    position: fixed;
+    color: gray;
+    bottom: 10px;
+    right: 10px;
+    font-size: 50px;
+    border:  none;
+    outline: 0;
+    padding: 0;
+    text-align: center;
+}
+.scroll-top:focus{
+    outline: none;
+}
+.link-to-top{
+    color: gray;
+}
+.link-to-top:hover{
+    color: gray;
+}
+.mob-nav-bar{
+    border: 0 1px;
+    height: 75px;
+    width: 75px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+    float: right;
+    font-weight: 400;
+    display: none;
+}
+@media only screen and (max-width: 480px){
+    .main-menu{
+        display: none;
+    }
+    .mob-nav-bar{
+        display: block;
+    }
 }
